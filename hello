@@ -1,0 +1,3 @@
+#!/home/ec2-user//.nvm/versions/node/v8.15.1/bin/node
+
+console.log("hello, world!");
