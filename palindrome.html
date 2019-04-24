@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Palindrome Teser</title>
-        <meta charset="utf-8">
-        <script src="bundle.js"></script>
-    </head>
-    <body>
-        <h1>Palindrome Tester</h1>
-    </body>
+
+<head>
+    <title>Palindrome Teser</title>
+    <meta charset="utf-8">
+    <script src="bundle.js"></script>
+    <style>
+        #palindromeResult {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Palindrome Tester</h1>
+
+    <form id="palindromeTester">
+        <textarea name="phrase" rows="10" cols="30"></textarea>
+        <br>
+        <button id="palindromeTester">Is it a palindrome?</button>
+    </form>
+
+
+    <h2>Result</h2>
+    <p id="palindromeResult"></p>
+</body>
+
 </html>
